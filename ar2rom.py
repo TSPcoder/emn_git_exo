@@ -1,7 +1,7 @@
 import unittest
 
 conversion_map = (
-    ('l', 50),
+    ('L', 50),
     ('x', 10),
     ('ix', 9),
     ('v', 5),
@@ -47,7 +47,7 @@ class Tests(unittest.TestCase):
         self.assertEqual(ar2rom(21), 'xxi')
 
     def test_50_to_l(self):
-        self.assertEqual(ar2rom(50), 'l')
+        self.assertEqual(ar2rom(50), 'L')
 
 if __name__ == "__main__":
     unittest.main()
